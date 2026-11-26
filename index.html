@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Учебный сайт о Санкт-Петербурге: история, архитектура и места, с которых начинается знакомство с городом.">
+  <meta name="theme-color" content="#101a27">
+  <title>Петербург — город, который помнит</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Петербург — на главную"><span class="brand-mark">П</span><span>ГОРОД<br><b>НА НЕВЕ</b></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Главное меню">
+      <a href="#about">О городе</a><a href="#history">История</a><a href="#places">Места</a><a href="#reviews">Отзывы</a><a href="#quiz">Проверь себя</a>
+    </nav>
+    <a class="header-note" href="#about">СЕВЕРНАЯ СТОЛИЦА <span>·</span> 1703</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Знакомство с городом</p>
+        <h1 id="hero-title">Петербург —<br><em>город, который</em><br>помнит</h1>
+        <p class="hero-lead">Город на островах и набережных, где история чувствуется в каждом повороте улицы.</p>
+        <a class="button button-light" href="#about">Начать прогулку <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art" aria-label="Стилизованный рисунок разводного моста и шпиля Петербурга">
+        <div class="moon"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="skyline skyline-back"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="spire"><span></span></div>
+        <div class="palace"><span class="roof"></span><span class="dome"></span><span class="columns"></span><span class="base"></span></div>
+        <div class="bridge"><span class="bridge-top"></span><span class="bridge-deck"></span><span class="bridge-leg left"></span><span class="bridge-leg right"></span></div>
+        <div class="water"><span></span><span></span><span></span><span></span><span></span></div>
+        <p class="art-caption">59° 56′ С. Ш. &nbsp; 30° 19′ В. Д.</p>
+      </div>
+      <div class="hero-bottom"><span>САНКТ-ПЕТЕРБУРГ</span><span>01 / 04</span><span>ГОРОД И ЕГО ИСТОРИЯ</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-index">01 <span>О ГОРОДЕ</span></div>
+      <div class="intro-text"><p class="eyebrow eyebrow-dark">Между прошлым и настоящим</p><h2>У города есть<br><em>свой характер.</em></h2></div>
+      <div class="intro-side"><p>Санкт-Петербург стоит у Финского залива, в месте, где Нева расходится на рукава и каналы. Его строили как новую столицу, а сегодня это один из главных культурных и исторических центров России.</p><p>Петербург часто называют Северной столицей и городом белых ночей. Но лучше всего он открывается в деталях: в граните набережных, тихих дворах и отражении фасадов в воде.</p></div>
+      <div class="fact-strip"><div><strong>1703</strong><span>год основания</span></div><div><strong>Нева</strong><span>главная река города</span></div><div><strong>Более 300</strong><span>мостов соединяют берега</span></div></div>
+    </section>
+
+    <section class="history section-wrap" id="history">
+      <div class="section-index">02 <span>КРАТКАЯ ИСТОРИЯ</span></div>
+      <div class="history-heading"><p class="eyebrow">Три поворотных момента</p><h2>Как рос<br><em>Петербург</em></h2><p class="history-intro">От крепости на берегу Невы — к городу, который стал символом эпохи.</p></div>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-year">1703</span><span class="timeline-dot"></span><div><h3>Начало города</h3><p>Пётр I основал город и заложил Петропавловскую крепость на Заячьем острове. Дата её закладки считается днём рождения Петербурга.</p></div></article>
+        <article class="timeline-item"><span class="timeline-year">1712</span><span class="timeline-dot"></span><div><h3>Новая столица</h3><p>Петербург стал столицей Российской империи. К городу приглашали архитекторов и мастеров, прокладывали улицы и возводили новые здания.</p></div></article>
+        <article class="timeline-item"><span class="timeline-year">Сегодня</span><span class="timeline-dot"></span><div><h3>Культурное наследие</h3><p>Исторический центр Петербурга и связанные с ним памятники входят в список Всемирного наследия ЮНЕСКО. Город продолжает развиваться и хранить память о прошлом.</p></div></article>
+      </div>
+    </section>
+
+    <section class="places section-wrap" id="places">
+      <div class="section-index">03 <span>ЧТО ПОСМОТРЕТЬ</span></div>
+      <div class="places-title"><div><p class="eyebrow eyebrow-dark">Архитектура как рассказ</p><h2>Знакомые<br><em>силуэты</em></h2></div><p>Несколько мест, с которых удобно начать знакомство с городом.</p></div>
+      <div class="place-grid">
+        <article class="place-card place-card-dark"><div class="place-illustration fortress" aria-hidden="true"><span class="fort-wall"></span><span class="fort-tower"></span><span class="fort-spire"></span><span class="fort-water"></span></div><div class="place-meta"><span>01 / ОСТРОВ</span><span>1703</span></div><h3>Петропавловская<br>крепость</h3><p>С неё началась история города. Внутри крепостных стен находится Петропавловский собор с высокой золотой башней.</p></article>
+        <article class="place-card place-card-blue"><div class="place-illustration museum" aria-hidden="true"><span class="museum-dome"></span><span class="museum-roof"></span><span class="museum-building"></span><span class="museum-columns"></span></div><div class="place-meta"><span>02 / ИСКУССТВО</span><span>1764</span></div><h3>Эрмитаж</h3><p>Один из крупнейших художественных музеев мира. Главный музейный комплекс расположен в зданиях у Дворцовой площади.</p></article>
+        <article class="place-card place-card-sand"><div class="place-illustration cathedral" aria-hidden="true"><span class="cat-dome"></span><span class="cat-roof"></span><span class="cat-building"></span><span class="cat-columns"></span></div><div class="place-meta"><span>03 / ПЛОЩАДЬ</span><span>1858</span></div><h3>Исаакиевский<br>собор</h3><p>Монументальный собор с большой золочёной купольной конструкцией. С колоннады открывается панорама исторического центра.</p></article>
+      </div>
+    </section>
+
+    <section class="reviews section-wrap" id="reviews">
+      <div class="section-index">04 <span>ОТЗЫВЫ</span></div>
+      <div class="reviews-heading"><div><p class="eyebrow eyebrow-dark">Расскажи о впечатлении</p><h2>Твоё мнение<br><em>важно</em></h2></div><p>Оставь короткий отзыв о сайте и знакомстве с Петербургом. Отзывы сохраняются в Google Таблице и публикуются здесь.</p></div>
+      <div class="reviews-layout">
+        <form class="review-form" id="review-form" method="post" target="review-frame">
+          <h3>Оставить отзыв</h3>
+          <label for="review-name">Имя или псевдоним</label>
+          <input id="review-name" name="name" maxlength="40" required placeholder="Как к тебе обращаться?">
+          <span class="field-label">Оценка</span>
+          <div class="review-stars" role="radiogroup" aria-label="Оценка от 1 до 5">
+            <button type="button" class="review-star selected" data-rating="1" aria-label="1 звезда">★</button><button type="button" class="review-star selected" data-rating="2" aria-label="2 звезды">★</button><button type="button" class="review-star selected" data-rating="3" aria-label="3 звезды">★</button><button type="button" class="review-star selected" data-rating="4" aria-label="4 звезды">★</button><button type="button" class="review-star selected" data-rating="5" aria-label="5 звёзд">★</button>
+            <input type="hidden" name="rating" id="rating" value="5">
+          </div>
+          <label for="review-text">Твой отзыв</label>
+          <textarea id="review-text" name="text" maxlength="600" required placeholder="Что тебе запомнилось?"></textarea>
+          <label class="honeypot" aria-hidden="true">Оставь это поле пустым<input name="website" tabindex="-1" autocomplete="off"></label>
+          <input type="hidden" name="payload" id="review-payload">
+          <button class="review-submit" type="submit">Отправить отзыв <span aria-hidden="true">↗</span></button>
+          <p class="review-privacy">Не указывай телефон, адрес и другие личные данные: отзыв будет виден посетителям сайта.</p>
+          <p id="review-success" class="review-success" role="status" aria-live="polite"></p>
+        </form>
+        <section class="review-feed" aria-labelledby="review-feed-title"><h3 id="review-feed-title">Отзывы посетителей</h3><div id="reviews-list" aria-live="polite"><p class="review-empty">Загружаем отзывы…</p></div></section>
+      </div>
+      <iframe name="review-frame" title="Отправка отзыва" class="sr-only"></iframe>
+    </section>
+
+    <section class="quote-band"><span class="quote-mark">“</span><blockquote>Петербург раскрывается<br>не сразу. И в этом его магия.</blockquote><span class="quote-caption">ГОРОД УЧИТСЯ БЫТЬ УСЛЫШАННЫМ</span></section>
+
+    <section class="quiz section-wrap" id="quiz">
+      <div class="section-index">05 <span>МИНИ-ВИКТОРИНА</span></div>
+      <div class="quiz-card"><div><p class="eyebrow">Проверь себя</p><h2>Готов к прогулке?</h2><p class="quiz-question">На каком острове заложили Петропавловскую крепость?</p></div><div class="quiz-options" role="group" aria-label="Варианты ответа"><button class="quiz-option" data-answer="false">Васильевский</button><button class="quiz-option" data-answer="true">Заячий</button><button class="quiz-option" data-answer="false">Крестовский</button><p class="quiz-result" aria-live="polite"></p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand brand-footer" href="#top"><span class="brand-mark">П</span><span>ГОРОД<br><b>НА НЕВЕ</b></span></a><p>Учебный проект о Санкт-Петербурге<br><span>Автор: Муратов Лев · II А курс</span></p><a class="back-top" href="#top">В НАЧАЛО <span>↑</span></a></footer>
+</body>
+</html>
